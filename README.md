@@ -1,6 +1,6 @@
 ![image](https://github.com/MuhammadRav/Tugas10_20220140193/assets/126452363/d337b530-ea67-49d9-94d1-31e103925df7)
 
-![Uploading image.png…]()
+![Screenshot 2024-05-12 005856](https://github.com/MuhammadRav/Tugas10_20220140193/assets/126452363/6fabff76-af6e-4403-993a-dd8c07efb98f)
 
 ![image](https://github.com/MuhammadRav/Tugas10_20220140193/assets/126452363/7c1b85c8-94ea-4138-9fe9-aba880b3b242)
 
