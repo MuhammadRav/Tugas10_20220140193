@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Calon Pegawai</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulir Calon Pegawai</legend>
+
+            <p>Nama : <input type="text" name="nama"></p>
+            <p>Alamat : <input type="text" name="alamat"></p>
+            <p>Password : <input type="password" name="pass"></p>
+            <p>
+                Jenis Kelamin :
+                <input type="radio" name="jk" value="Laki-laki" checked/> Laki-laki
+                <input type="radio" name="jk" value="Perempuan" checked/> Perempuan
+            </p>
+            <p>
+                Bahasa pemrograman yang dikuasai : <br>
+                <input type="checkbox" name="web"> Web
+                <input type="checkbox" name="mobile"> Mobile
+                <input type="checkbox" name="desk"> Desktop
+            </p>
+            <p>
+                Kota Asal :
+                <select name="kota">
+                    <optgroup label="Jawa Barat">
+                        <option>Bandung</option>
+                        <option>Bogor</option>
+                        <option>Depok</option>
+                        <option>Cimahi</option>
+                        <option>Sukabumi</option>
+                        <option>Tasikmalaya</option>
+                        <option>Bekasi</option>
+                        <option>Karawang</option>
+                        <option>Cirebon</option>
+                        <option>Purwakarta</option>
+                        <option>Subang</option>
+                        <option>Cianjur</option>
+                        <option>Garut</option>
+                        <option>Sumedang</option>
+                        <option>Indramayu</option>
+                        <option>Majalengka</option>
+                        <option>Pangandaran</option>
+                        <option>Banjar</option>
+                    </optgroup>
+                    <optgroup label="Jawa Tengah">
+                        <option>Semarang</option>
+                        <option>Surakarta</option>
+                        <option>Magelang</option>
+                        <option>Purwokerto</option>
+                        <option>Tegal</option>
+                        <option>Pekalongan</option>
+                        <option>Salatiga</option>
+                        <option>Pati</option>
+                        <option>Kudus</option>
+                        <option>Brebes</option>
+                        <option>Rembang</option>
+                        <option>Demak</option>
+                        <option>Wonosobo</option>
+                        <option>Temanggung</option>
+                        <option>Blora</option>
+                        <option>Kebumen</option>
+                        <option>Pemalang</option>
+                    </optgroup>
+                    <optgroup label="Jawa Timur">
+                        <option>Surabaya</option>
+                        <option>Malang</option>
+                        <option>Jember</option>
+                        <option>Kediri</option>
+                        <option>Mojokerto</option>
+                        <option>Pasuruan</option>
+                        <option>Probolinggo</option>
+                        <option>Batu</option>
+                        <option>Blitar</option>
+                        <option>Lamongan</option>
+                        <option>Tuban</option>
+                        <option>Madiun</option>
+                        <option>Nganjuk</option>
+                        <option>Tulungagung</option>
+                        <option>Bojonegoro</option>
+                        <option>Ponorogo</option>
+                        <option>Bangkalan</option>
+                    </optgroup>
+                    <optgroup label="DKI Jakarta">
+                        <option>Jakarta Pusat</option>
+                        <option>Jakarta Barat</option>
+                        <option>Jakarta Selatan</option>
+                        <option>Jakarta Timur</option>
+                        <option>Jakarta Utara</option>
+                    </optgroup>
+                    <optgroup label="Banten">
+                        <option>Serang</option>
+                        <option>Tangerang</option>
+                        <option>Cilegon</option>
+                        <option>Tangerang Selatan</option>
+                    </optgroup>
+                    <optgroup label="Yogyakarta">
+                        <option>Yogyakarta</option>
+                        <option>Sleman</option>
+                        <option>Bantul</option>
+                        <option>Kulon Progo</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                Apa yang membuat kami harus memilih anda? : <br>
+                <textarea rows="10" cols="60" placeholder="Tulis jawaban anda di sini"></textarea>
+            </p>
+            <p><input type="submit" value="Submit"></p>
+        </fieldset>
+    </form>
+    <button class="back"><a href="index.html">Home</a></button>
+</body>
+</html>

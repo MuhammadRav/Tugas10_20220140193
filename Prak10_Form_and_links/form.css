@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center; /* Pusatkan konten secara horizontal */
+    align-items: center; /* Pusatkan konten secara vertikal */
+    height: 100vh; /* Gunakan seluruh tinggi layar */
+}
+
+form {
+    width: 80%; /* Lebar formulir */
+}
+
+fieldset {
+    text-align: center; /* Pusatkan teks */
+    padding: 20px; /* Padding di sekitar konten */
+    border: 2px solid #2880b9; /* Tambahkan border */
+    border-radius: 10px; /* Tambahkan radius border */
+}
+
+legend {
+    font-size: 24px; /* Ukuran teks */
+    padding: 0 10px; /* Padding kiri dan kanan */
+}
+
+.back, a {
+    margin-top: 10px;
+    background-color: #2880b9;
+    color: white;
+    text-decoration: none;
+    width: 70px;
+    height: 40px;
+    border: transparent;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+
+.back a:hover {
+    background-color: #1f5b8d; /* Warna tombol saat dihover */
+}
